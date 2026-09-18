@@ -1,0 +1,7 @@
+Scikit-learn 
+XGBoost 
+LightGBM 
+Numpy 
+Pandas 
+Rdkit 
+molvs
