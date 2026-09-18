@@ -21,4 +21,5 @@ Klekora-Roth (Important: add .py and .json files from https://github.com/michal-
 python fingerprint_tool.py -i LXRdata.csv -m KNN -p knn_grid.csv -f kr <br>
 
 **Additional information**<br> 
-use 'python fingerprint_tool.py -h' command for additional options.<br> 
+use 'python fingerprint_tool.py -h' command for additional options such as test set fraction (-ts), random state (-rs), cv-fold (-cv), model saving (-sm) and 
+training/test set file saving (-sm).<br> 
