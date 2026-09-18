@@ -30,20 +30,15 @@ options:<br>
   -h, --help            show this help message and exit <br> 
   -i, --input INPUT     .csv file with SMILES notations <br> 
   -m, --model MODEL     machine learning tool (KNN/RF/SVM/GB/AB/MLP/XGB/ET/CB/DT)<br> 
-  -p, --parameter PARAMETER <br> 
-                        .csv file with ML parameters <br> 
-  -fp, --fingerprint FINGERPRINT <br> 
-                        morgan/maccs/rdkit/kr (default=morgan) <br> 
+  -p, --parameter PARAMETER .csv file with ML parameters <br> 
+  -fp, --fingerprint FINGERPRINT morgan/maccs/rdkit/kr (default=morgan) <br> 
   -r, --radius RADIUS   radius for Morgan (default=4) <br> 
   -nb, --nBits NBITS    nBits for Morgan (default=1024) <br> 
   -uf, --useFeatures    Use features for Morgan, default=False <br> 
   -uc, --useChirality   Use Chirality for Morgan, default=False <br> 
-  -ts, --testSize TESTSIZE<br> 
-                        test set size, default=0.2<br> 
-  -rs, --randomState RANDOMSTATE <br> 
-                        random_state, default=42 <br> 
+  -ts, --testSize TESTSIZE test set size, default=0.2<br> 
+  -rs, --randomState RANDOMSTATE random_state, default=42 <br> 
   -cv, --crossV CROSSV  cross_validation fold, default=5 <br> 
   -sm, --saveModel      Model saving, default=True <br> 
-  -sl, --smilesLabel SMILESLABEL <br> 
-                        label for SMILES column, default=SMILES <br> 
+  -sl, --smilesLabel SMILESLABEL label for SMILES column, default=SMILES <br> 
   -sf, --saveFiles      Training/Test data saving, default=True <br> 
