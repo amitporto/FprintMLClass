@@ -1,0 +1,4 @@
+n_estimators,criterion,max_depth,min_samples_split,max_features
+100,gini,None,2,sqrt
+200,entropy,10,5,log2
+500,,20,10,

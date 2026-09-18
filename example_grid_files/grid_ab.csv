@@ -1,0 +1,4 @@
+algorithm,estimator__max_depth,learning_rate,n_estimators,random_state
+SAMME,1,0.01,50,42
+SAMME.R,2,0.1,100,
+,,1,200,

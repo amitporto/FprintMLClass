@@ -1,0 +1,8 @@
+n_neighbors,weights,metric,algorithm,p,leaf_size,metric_params,n_jobs
+3,uniform,euclidean,auto,2,30,none,int
+5,distance,minkowski,ball_tree,,,,none
+7,,,kd_tree,,,,
+9,,,,,,,
+11,,,,,,,
+13,,,,,,,
+15,,,,,,,
